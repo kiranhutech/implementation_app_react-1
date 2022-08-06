@@ -4,9 +4,9 @@ const configurations = {
     APP_HOST: "https://learn-with-kiran.herokuapp.com/", //"192.168.0.102:3001",
   },
   production: {
-    SERVER_HOST: "http://api.hutech.com",
-    APP_HOST: "http://hutech.com",
-  },
+    SERVER_HOST: "https://aqueous-falls-36359.herokuapp.com/", //"http://localhost:3200", // "192.168.0.105:3001", //
+    APP_HOST: "https://learn-with-kiran.herokuapp.com/", //"192.168.0.102:3001",
+   },
 };
 
 function getConfig() {
@@ -20,7 +20,7 @@ function getConfig() {
       env = "production";
       break;
     default:
-      env = "development";
+      env = "production";
   }
   return configurations?.[env] || null;
 }
