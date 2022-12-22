@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useSelector, connect } from "react-redux";
+import { useSelector } from "react-redux";
 import Nav from "../common/Nav";
 import AddUsers from "./AddUsers";
 import ListUsers from "./ListUsers";

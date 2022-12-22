@@ -1,4 +1,5 @@
 export const addUser = (user) => {
+  console.log("111");
   return (dispatch) => {
     dispatch({
       type: "adduser",
